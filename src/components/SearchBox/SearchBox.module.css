@@ -1,0 +1,23 @@
+/* src/components/SearchBox/SearchBox.module.css */
+.searchBox {
+  margin-bottom: 20px;
+  padding: 10px; /* Додайте трохи відступів для кращого вигляду */
+  border: 1px solid #eee; /* Додайте легку межу */
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 18px; /* Збільште розмір шрифту лейбла */
+}
+
+.input {
+  width: 100%;
+  padding: 10px; /* Збільште відступи */
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 18px; /* Збільште розмір шрифту поля введення */
+}

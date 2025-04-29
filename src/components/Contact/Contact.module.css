@@ -1,0 +1,27 @@
+/* src/components/Contact/Contact.module.css */
+.contactCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px; /* Збільште відстань між елементами */
+}
+
+.contactInfo {
+  margin: 0;
+  font-size: 18px; /* Збільште розмір шрифту інформації про контакт */
+}
+
+.deleteButton {
+  padding: 10px 15px; /* Збільште відступи */
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; /* Збільште розмір шрифту кнопки */
+  transition: background-color 0.3s ease;
+}
+
+.deleteButton:hover {
+  background-color: #c82333;
+}

@@ -1,0 +1,41 @@
+/* src/components/ContactsForm/ContactsForm.module.css */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+  padding: 20px; /* Збільште відступи */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 18px; /* Збільште розмір шрифту лейблів */
+  margin-bottom: 5px;
+}
+
+.input {
+  padding: 10px; /* Збільште відступи */
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 18px; /* Збільште розмір шрифту полів введення */
+}
+
+.button {
+  padding: 12px 20px; /* Збільште відступи */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px; /* Збільште розмір шрифту кнопки */
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
